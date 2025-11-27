@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_lucide/flutter_lucide.dart';
 import 'homepage.dart';
+import 'reportspage.dart';
+import 'cardspage.dart';
+import 'profilepage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -47,8 +50,14 @@ class _MainScreenState extends State<MainScreen> {
           // Content
           if (_currentPage == "home")
             HomePage()
-          else
-            Center(child: Text("Page: $_currentPage", style: const TextStyle(fontSize: 20))),
+          else if (_currentPage == "reports")
+            ReportsPage()
+          else if (_currentPage == "cards")
+              CardsPage()
+            else if (_currentPage == "profile")
+                ProfilePage()
+              else
+                Center(child: Text("Page: $_currentPage", style: const TextStyle(fontSize: 20))),
 
           // Bottom Navigation
           BottomNavigation(
