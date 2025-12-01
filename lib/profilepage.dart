@@ -86,7 +86,7 @@ class ProfilePage extends StatelessWidget {
                                 style: TextStyle(
                                     color: Colors.grey[500], fontSize: 14)),
                             SizedBox(height: 4),
-                            Text("STUDENT NAME (AMANTA SURAIYA)",
+                            Text("AMANTA SURAIYA",
                                 style: TextStyle(
                                     color: Colors.grey[900], fontSize: 16)),
                           ],
@@ -116,7 +116,7 @@ class ProfilePage extends StatelessWidget {
                                 style: TextStyle(
                                     color: Colors.grey[500], fontSize: 14)),
                             SizedBox(height: 4),
-                            Text("S12345 (2110965)",
+                            Text("2110965",
                                 style: TextStyle(
                                     color: Colors.grey[900], fontSize: 16)),
                           ],
@@ -147,7 +147,7 @@ class ProfilePage extends StatelessWidget {
                                     color: Colors.grey[500], fontSize: 14)),
                             SizedBox(height: 4),
                             Text(
-                              "student.name@iub.edu (2110965@iub.edu.bd)",
+                              "2110965@iub.edu.bd",
                               style: TextStyle(
                                 color: Colors.grey[900],
                                 fontSize: 16,
@@ -188,14 +188,6 @@ class ProfilePage extends StatelessWidget {
                                 fontSize: 14,
                                 fontStyle: FontStyle.italic,
                                 height: 1.6,
-                              ),
-                            ),
-                            SizedBox(height: 16),
-                            Text(
-                              "(Note: Students should replace the text above with their own description here!)",
-                              style: TextStyle(
-                                color: Colors.red,
-                                fontSize: 14,
                               ),
                             ),
                           ],
