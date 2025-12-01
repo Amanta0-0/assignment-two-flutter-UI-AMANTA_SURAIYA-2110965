@@ -23,7 +23,7 @@ class Header extends StatelessWidget {
                 ),
                 child: const Center(
                   child: Text(
-                    "S",
+                    "A",
                     style: TextStyle(color: Colors.white, fontSize: 18),
                   ),
                 ),
@@ -40,7 +40,7 @@ class Header extends StatelessWidget {
                     ),
                   ),
                   Text(
-                    "STUDENT NAME",
+                    "AMANTA SURAIYA",
                     style: TextStyle(
                       color: Colors.black87,
                       fontSize: 18,

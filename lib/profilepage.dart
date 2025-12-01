@@ -48,7 +48,7 @@ class ProfilePage extends StatelessWidget {
                       ),
                       child: Center(
                         child: Text(
-                          "SN",
+                          "AS",
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 48,
@@ -86,7 +86,7 @@ class ProfilePage extends StatelessWidget {
                                 style: TextStyle(
                                     color: Colors.grey[500], fontSize: 14)),
                             SizedBox(height: 4),
-                            Text("STUDENT NAME (YOUR NAME HERE)",
+                            Text("STUDENT NAME (AMANTA SURAIYA)",
                                 style: TextStyle(
                                     color: Colors.grey[900], fontSize: 16)),
                           ],
@@ -116,7 +116,7 @@ class ProfilePage extends StatelessWidget {
                                 style: TextStyle(
                                     color: Colors.grey[500], fontSize: 14)),
                             SizedBox(height: 4),
-                            Text("S12345 (YOUR ID HERE)",
+                            Text("S12345 (2110965)",
                                 style: TextStyle(
                                     color: Colors.grey[900], fontSize: 16)),
                           ],
@@ -147,7 +147,7 @@ class ProfilePage extends StatelessWidget {
                                     color: Colors.grey[500], fontSize: 14)),
                             SizedBox(height: 4),
                             Text(
-                              "student.name@iub.edu (YOUR IUB EMAIL HERE)",
+                              "student.name@iub.edu (2110965@iub.edu.bd)",
                               style: TextStyle(
                                 color: Colors.grey[900],
                                 fontSize: 16,
