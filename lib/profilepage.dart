@@ -182,7 +182,7 @@ class ProfilePage extends StatelessWidget {
                                     height: 1.5)),
                             SizedBox(height: 12),
                             Text(
-                              "\"I'm currently focusing on my final year, balancing studies with building side projects. I believe financial health is key to academic success. I love hiking on weekends and planning my next big travel adventure!\"",
+                              "\"Final-year student with a love for learning and building meaningful side projects. I value financial wellness as part of my journey toward success. Outside the classroom, I'm usually hiking, exploring nature, or dreaming up my next travel destination.\"",
                               style: TextStyle(
                                 color: Colors.grey[600],
                                 fontSize: 14,
